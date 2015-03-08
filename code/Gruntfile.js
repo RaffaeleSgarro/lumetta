@@ -8,7 +8,6 @@ module.exports = function(grunt){
     assemble: {
       options: {},
       pages: {
-        ext: 'html',
         expand: true,
         cwd: 'static',
         src: '**/*.hbs',
