@@ -3,9 +3,9 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
 	<head>
-		<title>Lumetta - Oltre la natura: sito italiano della pittrice Lucia Caricone</title>
-		<link rel="stylesheet" type="text/css" href="style/main.css"/>
-		<link rel="shortcut icon" type="image/png" href="images/icona.png"/>
+		<title>{{title}}</title>
+		<link rel="stylesheet" type="text/css" href="../style/main.css"/>
+		<link rel="shortcut icon" type="image/png" href="../images/icona.png"/>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 		<meta name="keywords" lang="it" content="lumetta, lucia, caricone, pittura, arte, mostre, opere, natura morta, realismo freddo"/>
 		<meta name="description" lang="it" content="Caricone Lucia, in arte Lumetta, è una degli artisti più apprezzati e attivi
@@ -22,24 +22,31 @@ gallery, which has high resolution images, and contact Lumetta"/>
 			<div id="sezione_principale" class="contenitore">
 				<div id="colonna_sinistra">
 					<ul id="navigazione">
-					<li><a href="curriculum_eng.php">Curriculum</a></li>
-					<li><a href="galleria_eng.php?lang=eng">Gallery</a></li>
-					<li><a href="recensioni_eng.php">Reviews</a></li>
-					<li><a href="contatti_eng.php">Contacts</a></li>
-					<li><a href="curriculum.php">Italiano</a></li>
+					{{#each pages }}
+						<li><a href="{{ filename }}">{{ data.title }}</a></li>
+					{{/each }}
 					</ul>
 				</div>
-				
+
 				<div id="contenuto">
-<!-- Contenuto -->
-<!-- Inserire il titolo in un tag h1 con attributo id = "titolo_pagina"-->
-<newtext/>
-<!-- -->
+					<h1 id="titolo_pagina">{{ title }}</h1>
+					{{> body }}
 				</div>
 			</div>
 		</div>
 		<div id="footer">
-			<p>Valid XHTML 1.0 , uses CSS 2</p>
+			<p>Valid XHTML 1.0, uses CSS 2</p>
 		</div>
+    <!-- Google analytics Start-->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+    var pageTracker = _gat._getTracker("UA-15796157-1");
+    pageTracker._trackPageview();
+    } catch(err) {}</script>
+    <!-- Google analytics End-->
 	</body>
 </html>
