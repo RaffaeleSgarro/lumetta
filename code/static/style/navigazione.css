@@ -22,10 +22,9 @@ background-image: url('images/on.png');
 
 #navigazione a {
 font-family: inherit;
-font-size: 14px;
 font-variant: small-caps;
 display: block;
-color: white;
+color: #dddddd;
 text-decoration: none;
 text-align: center;
 overflow: hidden;
@@ -34,5 +33,4 @@ margin: 0 auto;
 
 #navigazione a:hover {
 color: white;
-font-weight: bold;
 }
