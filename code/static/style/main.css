@@ -1,0 +1,151 @@
+@import url("tabelle.css");
+@import url("testi.css");
+@import url("navigazione.css");
+@import url("galleria.css");
+@import url("liste.css");
+
+body {
+margin: 0;
+border: 0;
+padding: 0;
+background-color: #575757;
+color: #808080;
+font-size: 12px;
+font-family: "Georgia", "Verdana", "Times New", "Comic",  sans-serif;
+text-align: left;
+background-image: url('images/ghirigori.jpeg');
+background-repeat: repeat;
+background-attachment: fixed;
+}
+
+.contenitore {
+margin: 0 auto 0;
+}
+
+#pagina {
+width: 900px;
+background-image: url("images/shadow.png");
+background-repeat: repeat-y;
+background-attachment: fixed;
+background-position: center;
+padding: 0 30px 0;
+}
+
+#intestazione {
+padding: 0;
+margin: 0;
+border: 0;
+width: 900px;
+height: 150px;
+background-image: url("images/intestazione.jpeg");
+}
+
+#sezione_principale  {
+margin: 0;
+background-image: url('images/bg.png');
+background-repeat: repeat-y;
+min-height: 600px;
+padding: 0;
+overflow: hidden;
+}
+
+#colonna_sinistra {
+margin: 0;
+padding: 0;
+float: left;
+width: 190px;
+font-family: "Arial","Georgia","Times New",serif;
+}
+
+#contenuto {
+margin: 0 25px 0 210px;
+padding-bottom: 30px;
+background-color: white;
+}
+
+a img {
+border: 0;
+}
+
+#footer{
+margin: 0 auto;
+border: 0;
+padding: 0 30px;
+width: 900px;
+height: 30px;
+background-image: url('images/bottom_shadow.png');
+background-position: center;
+}
+
+#footer p {
+margin: 0 auto;
+padding: 0 auto;
+text-align: center;
+}
+
+div.colorato {
+margin: 5px;
+background-color: #FFF7D6;
+border: 1px solid silver;
+padding: 5px;
+overflow: hidden;
+}
+
+input  {
+margin-top: 13px;
+}
+
+select {
+margin-top: 13px;
+}
+
+label {
+margin-top: 13px;
+}
+
+/* Qui inizia lo stile per la pagina di modifica della galleria*/
+div.modifica_galleria {
+margin: 10px;
+border: 1px solid silver;
+padding: 10px;
+background-color: transparent;
+font-size: 11px;
+}
+
+div.descrittore_categoria {
+margin: 0;
+border: 1px solid silver;
+padding: 5px;
+background-color: #FFF7D6;
+font-size: 11px;
+text-align: left;
+}
+
+div.descrittore_categoria input {
+margin-top: 3px;
+}
+
+div.contenitore_immagine {
+margin: 10px;
+float: right;
+}
+
+div.modifica_galleria a {
+text-decoration: underline;
+font-size: 10px;
+color: black;
+}
+
+div.modifica_galleria h2, div.modifica_galleria h3 {
+margin: 3px auto;
+text-align: left;
+}
+
+div.modifica_galleria h2 {
+font-size: 14px;
+}
+
+div.modifica_galleria h3 {
+font-size: 13px;
+}
+

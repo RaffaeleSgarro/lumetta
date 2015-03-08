@@ -1,0 +1,16 @@
+ul.area_riservata li a{
+color: #808080;
+text-decoration: none;
+}
+
+.area_riservata li a:hover {
+text-decoration: underline;
+}
+
+ul.area_riservata li {
+/*Il marker è una manina...*/
+}
+
+ul {
+color: #808080;
+}

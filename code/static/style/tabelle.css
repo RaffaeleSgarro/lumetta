@@ -1,0 +1,43 @@
+th {
+background-color: silver;
+color: white;
+font-style: bold;
+font-size: 12px;
+padding: 10px;
+}
+
+tr {
+/*background-color: #CBFFC0;*/
+border: 1px solid silver;
+}
+
+td {
+padding: 15px;
+background-color: transparent;
+color: #303030;
+font-size: 11px;
+text-align: left;
+}
+
+td.in_attesa {
+background-color: #FFCBCB;
+color: #630000;
+text-align: center;
+}
+
+td.richiesta_processata {
+background-color: #C5FFC0;
+color: #2D502C;
+text-align: center;
+}
+
+td input {
+margin-top: 5px;
+}
+
+table{
+border-collapse: collapse;
+border: 1px solid silver;
+width: 100%;
+margin: 5px auto;
+}

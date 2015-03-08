@@ -1,0 +1,84 @@
+div.anteprima, div.collegamenti {
+margin: 15px 5px;
+border: 1px solid silver;
+padding: 15px;
+overflow: hidden;
+}
+
+div.anteprima img {
+float: right;
+margin-bottom: 5px;
+}
+
+div.anteprima h3 {
+text-align: left;
+}
+
+div.categoria {
+background-color: transparent;
+margin: 20px;
+border: 1px solid silver;
+padding: 5px;
+color: #808080;
+font-size: 12px;
+overflow: hidden;
+}
+
+div.categoria:hover {
+background-color: #FFEECC;
+}
+
+a.categoria {
+text-decoration: none;
+}
+
+h3.categoria {
+text-align: left;
+}
+
+p.categoria {
+text-align: left;
+}
+
+img.categoria {
+float: right;
+margin-left: 20px;
+}
+
+div.richiesta_in_corso , div.richiesta_processata {
+margin-top: 3px;
+border: 1px solid #630000;
+padding: 10px;
+color: #630000;
+background-color: #FFCBCB;
+text-align: center;
+}
+
+div.richiesta_processata {
+border: 1px solid #2D502C;
+color: #2D502C;
+background-color: #C5FFC0;
+}
+
+div.successiva a, div.precedente a{
+text-decoration: none;
+color: #808080;
+border: 0;
+}
+
+div.successiva {
+margin: auto 5px;
+padding: auto;
+float: right;
+}
+
+div.precedente {
+margin: auto 5px;
+padding: auto;
+float: left;
+}
+
+div.precedente img, div.successiva img {
+display: inline;
+margin: 0 5px;
+}
