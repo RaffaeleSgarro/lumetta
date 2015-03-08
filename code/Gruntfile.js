@@ -8,9 +8,10 @@ module.exports = function(grunt){
     assemble: {
       options: {},
       pages: {
+        ext: 'html',
         expand: true,
         cwd: 'static',
-        src: '**/*.html',
+        src: '**/*.hbs',
         dest: 'dist/'
       }
     }
@@ -19,6 +20,5 @@ module.exports = function(grunt){
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('assemble');
 
-  // Default task(s).
   grunt.registerTask('default', ['clean', 'assemble']);
 };
